@@ -97,20 +97,38 @@ button:active {
 
 .footer__mail-address {
   margin-top: 16px;
+  transition: opacity 0.3s ease;
+}
+
+.footer__mail-address:hover {
+  transform: translateX(20px) scale(1.2);
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .footer__phone-number {
   margin-top: 12px;
   font-size: 24px;
   font-weight: bold;
+  transition: opacity 0.3s ease;
+}
+.footer__phone-number:hover {
+  transform: translateX(20px) scale(1.2);
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .footer__language-group {
   display: flex;
   gap: 8px;
   margin-top: 40px;
+  transition: opacity 1s ease;
 }
 
 .footer__language {
   cursor: pointer;
+}
+.footer__language:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
